@@ -1,0 +1,34 @@
+# Copyrighted audio, transcripts, datasets, and references
+data/
+references/
+outputs/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.jsonl
+*.list
+*.tsv
+
+# Trained & pretrained weights / checkpoints / logs
+GPT-SoVITS/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+logs/
+
+# Personal CV / local documents
+main.tex
+*.tex
+*.pdf
+
+# Python / OS / Scratch
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.DS_Store
+Thumbs.db
